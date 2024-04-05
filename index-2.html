@@ -189,7 +189,7 @@
               <h2 id="title-1"><span style="background-image:-webkit-linear-gradient(135deg, #a1ccf2, #00aeff,#1566b8);
                 -webkit-background-clip:text;
                 -webkit-text-fill-color:transparent;
-                ">行遍</span><span style="color: #283251;">天涯路</span>,<span style="background-image:-webkit-linear-gradient(135deg, #ffffff,#00aeff, #0272da);
+                ">行遍</span><span style="color: #283251;">天涯路,</span><span style="background-image:-webkit-linear-gradient(135deg, #ffffff,#00aeff, #0272da);
                 -webkit-background-clip:text;
                 -webkit-text-fill-color:transparent;">理游</span><span style="color: #283251;">尽风情</span></h2>
               <div class="container title">
@@ -211,7 +211,7 @@
                 <form method="post" action="index-2.html" style="z-index: 99;">
                   <div class="">
                     <input style="color: #283251;font-weight: 700;" type="text" name="email"
-                      value="Search what you think">
+                      value="   Search what you think">
                     <a href="http://192.168.122.210:1002/" class="theme-btn btn-one">S t a r t</a>
                   </div>
                 </form>
@@ -300,9 +300,8 @@
     width: max-content;
     letter-spacing: 6px;
     font-family: "Meta", sans-serif;
-    font-variation-settings: "wght" 100, "ital" 0;
+    /* font-variation-settings: "wght" 100, "ital" 0; */
     text-shadow: none;
-    cursor: pointer;
     transition: all 0.5s;
     color: #7aa9a9;
     font-size: 4.5rem;
@@ -310,20 +309,20 @@
     text-align: center;
 
     &:hover {
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke: 4px #ffffff;
-      font-variation-settings: "wght" 900, "ital" 1;
-      color: transparent;
-      text-shadow: 10px 10px 0px #a6cef8, 15px 15px 0px #07bccc,
-        20px 20px 0px #4e88cd, 25px 25px 0px #3478ba, 45px 45px 10px #1f63a5;
+      /* -webkit-background-clip: text; */
+      /* -webkit-text-fill-color: transparent; */
+      /* -webkit-text-stroke: 4px #ffffff; */
+      /* font-variation-settings: "wght" 900, "ital" 1;
+      color: transparent; */
+      transform: translateY(-5px);
+      text-shadow: 10px 10px 0px rgba(83, 190, 248, 0.1);
     }
   }
 
   .box {
     letter-spacing: 4px;
     transition: all 0.5s;
-    -webkit-text-stroke: 4px #d6f4f4;
+    -webkit-text-stroke: 3px #d6f4f4;
     font-variation-settings: "wght" 900, "ital" 1;
     font-size: 2rem;
     text-align: center;
